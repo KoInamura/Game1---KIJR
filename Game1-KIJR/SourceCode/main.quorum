@@ -11,12 +11,6 @@ class Main is Game
     action CreateGame
     end
 
-    /*
-        The update action is called on every "frame" of animation in a game. This
-        action should be used to do operations on items. So, for example, we 
-        might use this action to change frames of animation, to rotate items, 
-        or to make creatures jump.
-    */
     action Update(number seconds)
     end
 end
