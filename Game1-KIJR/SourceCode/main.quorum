@@ -2,6 +2,8 @@ use Libraries.Game.Game
 use Libraries.Game.Graphics.Drawable
 
 class Main is Game
+    Drawable collider1
+    Drawable collider2
     
     action Main
         StartGame()
@@ -9,6 +11,9 @@ class Main is Game
 
     
     action CreateGame
+        collider1:LoadFilledCircle(50)
+        collider1:SetPosition(0, 0)
+        Add(collider1)
     end
 
     action Update(number seconds)
