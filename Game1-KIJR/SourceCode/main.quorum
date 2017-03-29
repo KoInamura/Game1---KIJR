@@ -17,7 +17,7 @@ class Main is Game
     end
 
     action Update(number seconds)
-        number newX = collider1:GetX() + 300 * seconds
+        number newX = collider1:GetX() + 200 * seconds
 
         collider1:SetPosition(newX, collider1:GetY())
 
